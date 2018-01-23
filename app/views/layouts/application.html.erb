@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=I18n.locale ng-app='main' ng-controller='MainCtrl'>
   <head>
     <title>Portfolio</title>
     <%= csrf_meta_tags %>
@@ -9,6 +9,7 @@
   </head>
 
   <body>
-    Hello World
+    <div ng-include="'views/public/_header.html'" ng-controller='HeaderCtrl'>
+    </div>
   </body>
 </html>

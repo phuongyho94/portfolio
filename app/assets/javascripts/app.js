@@ -1,6 +1,6 @@
-var app = angular.module('main', ['ngRoute', 'templates']);
+var app = angular.module('main', ['templates']);
 
-app.config(['$routeProvider', '$locationProvider', '$httpProvider', '$authProvider',
-  function($routeProvider, $locationProvider, $httpProvider, $authProvider){
-
-  });
+app.config(['$locationProvider', '$httpProvider',
+  function($locationProvider, $httpProvider,){
+    console.log("HHHHHHH")
+  }]);

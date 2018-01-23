@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Phuong Ho <phuongho94@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-ui-router": "^1.0.13",
+    "bootstrap": "^4.0.0"
+  }
+}

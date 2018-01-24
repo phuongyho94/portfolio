@@ -23,3 +23,9 @@ public/assets
 
 # Ignore the database config.
 database.yml
+
+#vendor
+/vendor
+
+# Ignore Mac metadata files
+.DS_Store

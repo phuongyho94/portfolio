@@ -13,5 +13,5 @@
 //= require rails-ujs
 //= require angular
 //= require angular-rails-templates
-//= require bootstrap-scss
+//= require bootstrap
 //= require_tree .

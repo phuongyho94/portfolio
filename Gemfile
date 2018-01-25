@@ -19,6 +19,9 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+## Additional Style (CSS) Libraries
+gem 'font-awesome-sass' # Font Awesome icons
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -38,7 +41,7 @@ gem 'jquery-rails'               # Use JQuery to make life easier
 gem 'angularjs-rails'            # Angular JS framework
 gem 'angular-rails-templates'    # Template support for Angular JS
 gem 'angularjs-rails-resource'   # Easier routing between Angular JS and Rails
-
+gem 'bootstrap-sass'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

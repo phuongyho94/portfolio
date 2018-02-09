@@ -41,7 +41,8 @@ gem 'jquery-rails'               # Use JQuery to make life easier
 gem 'angularjs-rails'            # Angular JS framework
 gem 'angular-rails-templates'    # Template support for Angular JS
 gem 'angularjs-rails-resource'   # Easier routing between Angular JS and Rails
-gem 'bootstrap-sass'
+gem 'bootstrap', '~> 4.0.0'
+gem 'sprockets-rails', '>= 2.3.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

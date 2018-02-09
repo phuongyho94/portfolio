@@ -12,7 +12,9 @@
 //
 //= require rails-ujs
 //= require angular
+//= require angular-route
 //= require angular-rails-templates
-//= require jquery
-//= require bootstrap
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 //= require_tree .
